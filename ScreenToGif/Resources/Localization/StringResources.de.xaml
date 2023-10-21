@@ -223,7 +223,7 @@
     <s:String x:Key="S.Options.App.Startup.Window.Board">Handzeichnung aufnehmen</s:String>
     <s:String x:Key="S.Options.App.Startup.Window.Editor">Editor</s:String>
     <s:String x:Key="S.Options.App.Startup.Window.Info">(Bestimmt, wie das Programm startet.&#10;Wenn minimiert, wird das Programmsymbol im Infobereich sichtbar)</s:String>
-    <s:String x:Key="S.Options.App.Theme">Programmlayout</s:String>
+    <s:String x:Key="S.Options.App.Theme">Aussehen</s:String>
     <s:String x:Key="S.Options.App.Theme.Scheme">Farbschema:</s:String>
     <s:String x:Key="S.Options.App.Theme.Scheme.VeryLight">Sehr hell</s:String>
     <s:String x:Key="S.Options.App.Theme.Scheme.Light">Hell</s:String>
@@ -581,6 +581,7 @@
     <s:String x:Key="S.Options.Extras.FfmpegLocation.Select">FFmpeg-Programmpfad öffnen</s:String>
     <s:String x:Key="S.Options.Extras.FfmpegLocation.File">FFmpeg ausführbar</s:String>
     <s:String x:Key="S.Options.Extras.FfmpegLocation.Invalid">Programmpfad beinhaltet mindestens ein ungültiges Zeichen. Bitte wählen Sie korrekte Adresse aus.</s:String>
+    <s:String x:Key="S.Options.Extras.FfmpegVersion">FFmpeg-Version</s:String>
     <s:String x:Key="S.Options.Extras.GifskiLocation">Speicherort für Gifski</s:String>
     <s:String x:Key="S.Options.Extras.GifskiLocation.Select">Gifski-Programmpfad öffnen</s:String>
     <s:String x:Key="S.Options.Extras.GifskiLocation.File">Gifski-Bibliothek</s:String>
@@ -1066,7 +1067,7 @@
     <s:String x:Key="S.Editor.Image.Overlay">Überlagerung</s:String>
     <s:String x:Key="S.Editor.Image.FreeDrawing">Zeichnen</s:String>
     <s:String x:Key="S.Editor.Image.Shape">Formen</s:String>
-    <s:String x:Key="S.Editor.Image.MouseEvents">Maus-&#x0d;Events</s:String>
+    <s:String x:Key="S.Editor.Image.MouseEvents">Maus-&#x0d;Ereignisse</s:String>
     <s:String x:Key="S.Editor.Image.Watermark">Wasserzeichen</s:String>
     <s:String x:Key="S.Editor.Image.Cinemagraph">Cinemagramm</s:String>
     <s:String x:Key="S.Editor.Image.Border">Rahmen</s:String>
@@ -1383,7 +1384,7 @@
     <s:String x:Key="S.Shapes.Fill">Füllung</s:String>
 
     <!--Editor • Mouse events-->
-    <s:String x:Key="S.MouseEvents">Maus-Events</s:String>
+    <s:String x:Key="S.MouseEvents">Maus-Ereignisse</s:String>
     <s:String x:Key="S.MouseHighlight.Color">Farbe der Mausmarkierung:</s:String>
     <s:String x:Key="S.MouseClicks.Color.Left">Farbe der linken Maustaste:</s:String>
     <s:String x:Key="S.MouseClicks.Color.Middle">Farbe der mittleren Maustaste::</s:String>
