@@ -261,6 +261,8 @@
     <s:String x:Key="S.Options.App.General.PortableUpdate.Info">(Erfordert eine manuelle Installation durch&#10;Entpacken und Ersetzen der ausführbaren Datei)</s:String>
     <s:String x:Key="S.Options.App.General.ForceUpdateAsAdmin">Erzwingen, dass die Aktualisierung mit erhöhten Privilegien ausgeführt wird</s:String>
     <s:String x:Key="S.Options.App.General.PromptToInstall">Benachrichtigen, bevor die Installation beginnt</s:String>
+    <s:String x:Key="S.Options.App.General.DownloadWithMeteredNetwork">Laden Sie Aktualisierungen in gebührenpflichtigen Netzen herunter.</s:String>
+    <s:String x:Key="S.Options.App.General.DownloadWithMeteredNetwork.Info">(Ermöglicht das Herunterladen von Aktualisierungen in gebührenpflichtigen Netzen)</s:String>
 
     <!--Options • Recorder-->
     <s:String x:Key="S.Options.Recorder.Interface">Benutzeroberfläche</s:String>
@@ -581,6 +583,7 @@
     <s:String x:Key="S.Options.Extras.FfmpegLocation.Select">FFmpeg-Programmpfad öffnen</s:String>
     <s:String x:Key="S.Options.Extras.FfmpegLocation.File">FFmpeg ausführbar</s:String>
     <s:String x:Key="S.Options.Extras.FfmpegLocation.Invalid">Programmpfad beinhaltet mindestens ein ungültiges Zeichen. Bitte wählen Sie korrekte Adresse aus.</s:String>
+    <s:String x:Key="S.Options.Extras.FfmpegVersion">FFmpeg-Version</s:String>
     <s:String x:Key="S.Options.Extras.GifskiLocation">Speicherort für Gifski</s:String>
     <s:String x:Key="S.Options.Extras.GifskiLocation.Select">Gifski-Programmpfad öffnen</s:String>
     <s:String x:Key="S.Options.Extras.GifskiLocation.File">Gifski-Bibliothek</s:String>
@@ -600,6 +603,7 @@
     <s:String x:Key="S.Options.Donate.Paypal.OwnCurrency">Öffnet PayPal-Webseite. Sie müssen eine Währung auswählen.</s:String>
     <s:String x:Key="S.Options.Donate.Subscribe">Abonnieren</s:String>
     <s:String x:Key="S.Options.Donate.Subscribe.Patreon">Monatlich via Patreon spenden</s:String>
+    <s:String x:Key="S.Options.Donate.Stripe">Spenden Sie über Stripe.</s:String>
     <s:String x:Key="S.Options.Donate.Gift">Spiele als Geschenk</s:String>
     <s:String x:Key="S.Options.Donate.Gift.Steam">Spiele als Geschenk via Steam</s:String>
     <s:String x:Key="S.Options.Donate.Gift.Gog">Spiele als Geschenk via GOG</s:String>
@@ -793,6 +797,8 @@
     <s:String x:Key="S.Preset.Gif.Embedded.Transparent.Description">Unterstützt das Speichern der Animation mit einem transparenten Hintergrund.</s:String>
     <s:String x:Key="S.Preset.Gif.Embedded.Graphics.Title">Hohe Qualität • Grafiken</s:String>
     <s:String x:Key="S.Preset.Gif.Embedded.Graphics.Description">Besser für Aufnahmen mit weniger Farben.</s:String>
+    <s:String x:Key="S.Preset.Gif.KGySoft.Default.Title">KGy SOFT • Standard</s:String>
+    <s:String x:Key="S.Preset.Gif.KGySoft.Default.Description">Empfohlen für die Bildschirmaufzeichnung der normalen Benutzeroberfläche. Verwendet den Median-Cut-Quantisierer ohne Dithering.</s:String>
     <s:String x:Key="S.Preset.Gif.KGySoft.Balanced.Title">KGy SOFT • Ausgewogen</s:String>
     <s:String x:Key="S.Preset.Gif.KGySoft.Balanced.Description">Gute Qualität für fotorealistische Grafiken mit dem Quantisierer ohne Dithering (von Wu).</s:String>
     <s:String x:Key="S.Preset.Gif.KGySoft.High.Title">KGy SOFT • Hohe Qualität</s:String>
@@ -1387,6 +1393,8 @@
     <s:String x:Key="S.MouseClicks.Color.Left">Farbe der linken Maustaste:</s:String>
     <s:String x:Key="S.MouseClicks.Color.Middle">Farbe der mittleren Maustaste::</s:String>
     <s:String x:Key="S.MouseClicks.Color.Right">Farbe der rechten Maustaste:</s:String>
+    <s:String x:Key="S.MouseClicks.Color.FirstExtra">Farbe der 1. Zusatztaste:</s:String>
+    <s:String x:Key="S.MouseClicks.Color.SecondExtra">Farbe der 2. Zusatztaste:</s:String>
     
     <!--Editor • Watermark-->
     <s:String x:Key="S.Watermark.Image">Grafik-Wasserzeichen</s:String>
@@ -1619,6 +1627,8 @@
     <s:String x:Key="S.SaveAs.KGySoft.Quantizer.CustomBitLevel">Benutzerdefinierte Bit-Ebene.</s:String>
     <s:String x:Key="S.SaveAs.KGySoft.Quantizer.CustomBitLevel.Info">Wenn das Häkchen gesetzt ist, kann die Bitebene manuell konfiguriert werden.&#x0d;&#x0a;⚠️ Achtung: Die höchste Bit-Stufe kann sehr viel Speicherplatz beanspruchen!</s:String>
     <s:String x:Key="S.SaveAs.KGySoft.Quantizer.BitLevel.Info">Ein höherer Wert bedeutet eine höhere Genauigkeit, einen größeren Zielfarbraum, eine langsamere Verarbeitung und einen größeren Speicherbedarf.&#x0d;&#x0a;Wenn z. B. 1, dann kann das Ergebnis nicht mehr als 8 Farben haben, oder wenn 2, nicht mehr als 64 Farben. &#x0d;&#x0a;Bei Octree- und Wu-Quantisierern wirkt sich dies auch auf die maximale Anzahl der monochromen Farbtöne aus.&#x0d;&#x0a;Wenn z. B. 5 (was die Voreinstellung für den Wu-Quantisierer ist), können nur 32 monochrome Farbtöne unterschieden werden.&#x0d;&#x0a;⚠️ Achtung: Der Wu-Quantisierer verbraucht beim höchsten Wert mindestens 650 MB.</s:String>
+    <s:String x:Key="S.SaveAs.KGySoft.Quantizer.LinearColorSpace">Lineare Farbräume</s:String>
+    <s:String x:Key="S.SaveAs.KGySoft.Quantizer.LinearColorSpace.Info">Wenn diese Option aktiviert ist, werden einige Operationen (Alpha-Blending mit Hintergrundfarbe, Quantisierung, Dithering, Suche nach den nächstgelegenen Farben in der Palette) im linearen Farbraum statt im sRGB-Farbraum durchgeführt.&#x0d;&#x0a;Das Arbeiten im linearen Farbraum ist langsamer, liefert aber ein qualitativ besseres Ergebnis, insbesondere wenn der Quantisierer nur wenige Farben verwendet.&#x0d;&#x0a;&#x0d;&#x0a;⚠️ Anmerkung: Wenn nur wenige Farben verwendet werden, kann die Helligkeit einer möglicherweise geänderten Vorschau falsch sein, da WPF die Größenänderung im sRGB-Farbraum durchführt.</s:String>
     <s:String x:Key="S.SaveAs.KGySoft.Quantizer.PredefinedColorsQuantizer.BlackAndWhite">Schwarz und weiß</s:String>
     <s:String x:Key="S.SaveAs.KGySoft.Quantizer.PredefinedColorsQuantizer.BlackAndWhite.Info">Feste 1-BPP-Palette mit schwarzen und weißen Farben.</s:String>
     <s:String x:Key="S.SaveAs.KGySoft.Quantizer.PredefinedColorsQuantizer.Grayscale4">Graustufen - 4 Farben</s:String>
